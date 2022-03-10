@@ -1,0 +1,253 @@
+/* classes navbar */
+.navbar
+{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    
+}
+.navbar::before
+{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+    
+
+    
+}
+
+.navbar ul
+{
+    display: flex;
+    
+
+    
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.item a
+{
+    text-decoration: none;
+    color: white;
+    /* opacity: 1; */
+}
+.item a :hover{
+    
+}
+.item{
+    padding: 10px;
+    
+}
+.itemHover{
+    background-color:   brown;
+    border-radius: 15px;
+    /* opacity: 0.4; */
+}
+/* header */
+.header1{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header1::before{ 
+    content: "";
+    position: absolute;
+    background: url('../images/h3.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+    opacity: .9;
+}
+#header{
+   
+    font-size: 45px;
+    color: white;
+}
+
+.btn
+{
+    
+    cursor: pointer;
+    padding: 11px 33px;
+    font-size: 18px;
+}
+/* our services */
+.services_container 
+{
+    font-family: 'Baloo Tammudu 2', cursive;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.services_container h1{
+    position: relative;
+    top: -47px;
+    font-size: 60px;
+    padding: 0px;
+    height: 1px;
+}
+.service{
+    display: flex;
+    
+}
+
+.box img
+{
+    margin-top: 10px;
+    height: 100px;
+    width: 200px;
+}
+.box h2{
+    position: relative;
+    top: 5px
+    
+}
+
+.box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 339px;
+    width: 400px;
+    border:2px solid red;
+    border-radius: 42px;
+    margin: 10px;
+    background-color: #e9e9e9;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+/* clients */
+
+.clients
+
+{
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    
+    background: url('../images/clients_background_clock.jpg') ;
+    height: 600px;
+    flex-direction: column;
+   
+    
+
+
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.clients div img{
+    width: 275px;
+    height: 300px;
+    margin: 3rem;
+}
+.clients h2
+{
+    font-size: 5rem;
+    padding: 0px;
+    margin-bottom: 5px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: #7ca5b6
+
+}
+/* Contact Us */
+/* .contactus::before
+{
+    content: " ";
+    background: url('../images/contact.jpg') no-repeat center center/cover;
+    z-index: -1;
+   
+    opacity: 0.7;
+} */
+.contactus
+{
+    background: url('../images/contact.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    /* align-items: center;
+    justify-content: center; */
+    /* width: 400px; */
+    
+}
+.contactus h1
+{
+    /* margin-left: 732px; */
+    display: inline;
+}
+#mainform
+{
+    width: 304px;
+    /* margin-left: 568px */
+    
+}
+/* .contactus::before
+{
+    content: " ";
+    background: url('../images/contact.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.7;
+} */
+.form_group
+{
+    margin: 25px;
+
+}
+.form_group input{
+    
+    padding: 8px;
+    width: 392px;
+}
+
+.form_group label
+{
+    font-size: 27px;
+    color: #c865ca;
+}
+/* copyright */
+#copyright
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 19px;
+}
+#copyrightparagraph
+{
+    display: inline;
+    color: white;
+}
+#copyrightimage
+{
+    height: 15px;
+    width: 22px;
+}

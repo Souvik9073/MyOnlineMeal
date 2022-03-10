@@ -1,0 +1,121 @@
+@media(max-width:1510px)
+{
+    .navbar ul li{
+        list-style: none;
+        font-size: 16px;
+    }
+  
+     .header1
+    {
+        display: flex;
+        flex-direction: column;
+        padding:3px 200px;
+        height: 550px;
+        justify-content: center;
+        align-items: center;
+        
+       
+    } 
+    #header
+    {
+        display: inline;
+        font-size: 37px;
+        padding: 0px;
+    }
+    .btn
+    {
+        font-size: 17px;
+        padding: 3px 35px;
+    }
+    .navbar
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .service
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .services_container h1 {
+        position: relative;
+        top: -47px;
+        font-size: 29px;
+        padding: 0px;
+        height: 1px;
+        margin-top: 72px;
+        margin-bottom: -1px;
+    }
+    .box
+    {
+        width: 393px;
+        height: 456px;
+    }
+    .clients
+    {
+        /* width: 100px; */
+        height: 1500px;
+
+    }
+    #apple
+    {
+        margin-top: 3px;
+    }
+    #linkedin
+    {
+        margin-top: -112px;
+    }
+    #ourclients
+    {
+        font-size: 30px;
+    }
+    .logo
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .mainform
+    {
+        /* width: 10px; */
+        margin-left: 0px;
+
+    }
+    .contactus
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form_group input
+    {
+        width: 159px;
+        font-size: 10px;
+
+    }
+    .form_group label
+    {
+        font-size: 16px;
+    }
+    .contactus h1 
+    {
+        /* margin-left: 400px; */
+       font-size: 32px;
+       padding-right: 0px;
+       display: inline;
+    }
+    .services_container
+    {
+        display: hidden;
+    }
+    #mainform
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
